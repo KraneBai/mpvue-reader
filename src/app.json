@@ -1,0 +1,42 @@
+{
+    "pages": [
+        "pages/my/main",
+        "pages/books/main",
+        "pages/comments/main",
+        "pages/detail/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ea5149",
+        "navigationBarTitleText": "KraneReader",
+        "navigationBarTextStyle": "white"
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "tabBar": {
+        "selectedColor": "#EA5149",
+        "list": [
+            {
+                "pagePath": "pages/books/main",
+                "text": "图书",
+                "iconPath": "static/img/book.png",
+                "selectedIconPath": "static/img/book-active.png"
+            },
+            {
+                "pagePath": "pages/comments/main",
+                "text": "评论",
+                "iconPath": "static/img/todo.png",
+                "selectedIconPath": "static/img/todo-active.png"
+            },
+            {
+                "pagePath": "pages/my/main",
+                "text": "我的",
+                "iconPath": "static/img/me.png",
+                "selectedIconPath": "static/img/me-active.png"
+            }
+        ]
+    }
+}
