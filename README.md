@@ -1,3 +1,5 @@
+git remote add origin https://github.com/KraneBai/mpvue-reader.git
+
 # mpvue-reader
 
 > A Mpvue project
